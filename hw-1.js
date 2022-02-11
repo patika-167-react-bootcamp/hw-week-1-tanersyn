@@ -32,6 +32,7 @@ const folders = [
 	const newFolders = folders.filter((folder) => folder.id !== folderId);
 
 	return newFolders;
+    
 };
 
 console.log(remove(7));
