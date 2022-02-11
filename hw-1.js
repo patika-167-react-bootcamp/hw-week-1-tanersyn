@@ -59,6 +59,7 @@ const folders = [
 		} else {
 			return folder;
 		}
+        
 	});
 
 	return finalFolders;
